@@ -4,4 +4,6 @@
     <dimen name="text_size_12_sp">12sp</dimen>
     <dimen name="text_size_15_sp">15sp</dimen>
     <dimen name="text_size_17_sp">17sp</dimen>
+    <dimen name="text_size_22_sp">22sp</dimen>
+    <dimen name="text_size_24_sp">24sp</dimen>
 </resources>

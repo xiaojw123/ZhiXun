@@ -6,35 +6,50 @@
     tools:context="com.xiaojw.zhixun.ui.activity.HomeActivity">
 
 
+    <FrameLayout
+        android:id="@+id/home_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/home_title_llt"
+        />
+
     <LinearLayout
+        android:id="@+id/home_title_llt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:gravity="center_vertical"
+        android:background="@color/themecolor"
         >
         <TextView
+            android:id="@+id/home_movice_tv"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="影视"
             android:layout_weight="1"
+            android:textColor="@color/home_tab_textcolor"
             android:gravity="center"
             android:textSize="@dimen/text_size_15_sp"
             />
         <TextView
+            android:id="@+id/home_fashion_tv"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="图书"
+            android:layout_height="match_parent"
+            android:text="時尚"
             android:gravity="center"
+            android:textColor="@color/home_tab_textcolor"
             android:layout_weight="1"
             android:textSize="@dimen/text_size_15_sp"
             />
         <TextView
+            android:id="@+id/home_other_tv"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="其他"
             android:gravity="center"
             android:layout_weight="1"
+            android:textColor="@color/home_tab_textcolor"
             android:textSize="@dimen/text_size_15_sp"
             />
     </LinearLayout>
